@@ -1,0 +1,19 @@
+{
+  "name": "image-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
